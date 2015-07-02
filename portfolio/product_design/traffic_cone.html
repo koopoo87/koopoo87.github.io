@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="../../assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="stylesheet" href="../../assets/css/jquery.bxslider.css"/>
 	</head>
 <body>
 	<!-- Header -->
@@ -63,40 +64,83 @@
 
 	<div id="main">
 	<!-- Intro -->
-		<section id="top" class="one dark cover">
+	<section id="top" class="one dark cover">
 			<div class="container">
 
 				<header>
-					<h2 class="alt"><strong>Product Design</strong><br/>
+					<h2 class="alt"><strong>The Green Cone</strong><br/>
 					</h2>
+					<p><font size ="4">Redesign Vernacular Products</font></p>
 				</header>
 			</div>
-		</section>
+	</section>
+	<section id="details">
+			
+				<header>
+					<h2>Backgrounds</h2>
+				</header>	
+				<p><font size ="4"><strong>The aim of this project was to Redesigning Vernacular Products in Korea.<br/>
+				   I focused on a Traffic Cone commenly seen on street</strong><br/></font></p>
+			    <ul class="bxslider">
+			            <li>
+			              <a><img src="images/traffic_cone-08.jpg"></a><br/>
+			            </li>
+			            <li>
+			             <a><img src="images/traffic_cone-09.jpg"></a>
+			            </li>
+			            <li>
+			              <a><img src="images/traffic_cone-10.jpg"/></a>
+			            </li>
+			     </ul><br/>
+			     <header>
+					<h2>Inspirations</h2>
+					<p><font size ="4"><strong>
+					The Green Cone is differentiated with conventional orange traffic cones with orange shape, in that it
+					has a POT PART to grow ivy inside. <br/>
+					As time goes by, the ivy grows onto the wires of the cones and finally covers the whole body.<br/>
+					In a such way, people will be more wary of keeping the sign, with a common feeling of admiration over life.<br>
+					The Green Cone proposes Flat Design for easy shipping inspired by origami net DIY Methods after few trials</font></p></header>
+				<ul class="bxslider">
+			            <li>
+			              <a><img src="images/traffic_cone_develop-13.jpg"></a><br/>
+			            </li>
+			            <li>
+			             <a><img src="images/traffic_cone_develop-14.jpg"></a>
+			            </li>
+			            <li>
+			              <a><img src="images/traffic_cone_develop-15.jpg"/></a>
+			            </li>
+			            <li>
+			              <a><img src="images/traffic_cone_develop-12.jpg"/></a>
+			            </li> 
+			            <li>
+			              <a><img src="images/traffic_cone_develop-11.jpg"/></a>
+			            </li> 
+			     </ul><br/>
+				<header>
+						<h2>Final Renderings & Instructions</h2>
+				</header>	
+					<p><font size ="4"><strong>Rendering Images of Traffic Cones<br/>
+						3D Modeled with Autodesk Inventor / Rendered with Keyshot<br/></font></p>
+					<ul class="bxslider">
+		            <li>
+		              <a><img src="images/traffic_cone-06.jpg"></a>
+		            </li>
+		            <li>
+		              <a><img src="images/traffic_cone-07.jpg"></a>
+		            </li>
+		            <li>
+		              <a><img src="images/traffic_cone-05.jpg"></a>
+		            </li>
+		            </ul><br/>
+		            <header>
+						<h2>Final Products</h2>
+					</header>	
+					<p><font size ="4"><strong>Final Prototype in the real environemtn</font></p>
+					<a><img src="images/traffic_cone_edit.jpg" width ="100%"></a>	
+	</section>
 	<div/>
 
-		<section id="portfolio" class = "two">
-			<div class ="details">
-			<header>
-				<h2>Traffic Cone<br/></h2>
-				<p><p/>
-			</header>	
-
-		          <ul class="bxslider">
-		            <li>
-		              <a href="http://saakes.net/projects/3rd-person/"><img src="../../img/flying_camera.jpg" alt="flying camera" title = "PRODUCT DESIGN"/></a> 
-		            </li>
-		            <li>
-		              <a href="http://saakes.net/projects/carpet/"><img src="../../img/carpet.jpg" alt="photochromic carpet" title = "UX DESIGN"/></a>
-		            </li>
-		            <li>
-		              <a href="http://saakes.net/projectes/paccam/"><img src="../../img/paccam.jpg" alt="paccam" title = "GRAPHIC DESIGN"/></a>
-		            </li>
-		            <li>
-		              <a href="http://http://vimeo.com/42260705"><img src="../../img/shader_printer.jpg" alt="shader printer" title = "RESEARCH"/></a>
-		            </li>
-		          </ul>
-		     <div/>
-		</section>
 	<!-- Scripts -->
 	<script src="../../assets/js/jquery.min.js"></script>
 	<script src="../../assets/js/jquery.scrolly.min.js"></script>
@@ -105,5 +149,22 @@
 	<script src="../../assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="../../assets/js/main.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="../../assets/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('.bxslider').bxSlider({
+		    slideWidth: 1024,
+		    minSlides: 1,
+		    maxSlides: 3,
+		    slideMargin: 1,
+		    auto: true,
+		    autoControls: true,
+		    infiniteLoop: false,
+		    hideControlOnEnd: true
+		  });
+		});
+	</script>
 </body>
 </html>
