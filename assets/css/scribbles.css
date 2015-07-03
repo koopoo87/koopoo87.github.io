@@ -9,7 +9,7 @@
 
 /* Reset */
 div.imagebox{
-	width : 33.3%;
+	width : 33%;
 	float : left;
 	text-align: center;
 	-moz-transition:-moz-transform 0.5s ease-in; 
@@ -30,9 +30,9 @@ div.imagebox a:hover img{
     -moz-box-shadow: 10px 10px 5px #ccc; 
     -webkit-box-shadow: 10px 10px 5px #ccc; 
     -khtml-box-shadow: 10px 10px 5px #ccc; 
-    -moz-transform:scale(1.2); 
-	-webkit-transform:scale(1.2);
-	-o-transform:scale(1.2);
+    -moz-transform:scale(1.1); 
+	-webkit-transform:scale(1.1);
+	-o-transform:scale(1.1);
 }
 
 div.desc {
