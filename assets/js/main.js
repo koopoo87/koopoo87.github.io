@@ -50,13 +50,18 @@
 			// Scrolly-fy links.
 				$nav_a
 					.scrolly()
-					.on('click', function(e) {
+					.on('click', function(e) { //Function when clicked 
 
 						var t = $(this),
 							href = t.attr('href');
 
-						if (href[0] != '#')
-							return;
+						if (href[0] != '#')	//has a link 
+						{
+							//split from #
+							var sharp = '#'
+							var nav_name = href.split("#")[1];
+							href = sharp.concat(nav_name);
+						}
 
 						e.preventDefault();
 
@@ -77,8 +82,13 @@
 
 					var href = $(this).attr('href');
 
-					if (href[0] != '#')
-						return;
+					if (href[0] != '#')	//has a link 
+					{
+						//split from #
+						var sharp = '#'
+						var nav_name = href.split("#")[1];
+						href = sharp.concat(nav_name);
+					}
 
 					ids.push(href.substring(1));
 
