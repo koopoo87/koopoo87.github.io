@@ -8,6 +8,23 @@
 */
 
 /* Reset */
+
+/*#imagelightbox {
+	position: fixed;
+    z-index: 9999;
+    width : 33%;
+ 	float : left;
+    -ms-touch-action: none;
+    touch-action: none;
+} */
+#imagelightbox
+{
+    z-index: 9999;
+ 
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
 div.imagebox{
 	width : 33%;
 	height : 33%;
@@ -31,9 +48,9 @@ div.imagebox a:hover img{
     -moz-box-shadow: 10px 10px 5px #ccc; 
     -webkit-box-shadow: 10px 10px 5px #ccc; 
     -khtml-box-shadow: 10px 10px 5px #ccc; 
-    -moz-transform:scale(1.1); 
-	-webkit-transform:scale(1.1);
-	-o-transform:scale(1.1);
+    -moz-transform:scale(1.2); 
+	-webkit-transform:scale(1.2);
+	-o-transform:scale(1.2);
 }
 
 div.desc {
