@@ -10,6 +10,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<link rel="stylesheet" href="../assets/css/jquery.bxslider.css"/>
 		<link rel="stylesheet" href="../assets/css/scribbles.css"/>
+		<link rel="stylesheet" type="text/css" href="../assets/css/fresco/fresco.css" />
 	</head>
 <body>
 	<!-- Header -->
@@ -77,42 +78,51 @@
 				</header>
 			</div>
 	</section>
-	<section id="details">
+	<section id="details" class="two">
 			<div class = "imagebox">
-				<a target="_blank"><img src = "images/baby.jpg" alt ="baby" width ="100%"></a>
-				<div class = "desc">A baby</div>
+				<a href='images/baby.jpg' class='fresco' data-fresco-group='example'
+         data-fresco-caption="A baby,2015" ><img src = "images/baby.jpg" alt ="baby" width ="100%"></a>
+				<div class = "desc">A baby smiling</div>
 			</div>
 			<div class = "imagebox">
-				<a target="_blank"><img src = "images/edinburgh.jpg" alt ="edinburgh" width ="100%"></a>
-				<div class = "desc">Edinburgh</div>
+				<a href='images/edinburgh.jpg' class='fresco' data-fresco-group='example'
+         data-fresco-caption="Edinburgh,2015"><img src = "images/edinburgh.jpg" alt ="edinburgh" width ="100%"></a>
+				<div class = "desc">A guy with a bag pipe at Edinburgh</div>
 			</div>
 			<div class = "imagebox">
-				<a target="_blank"><img src = "images/vatican_1.jpg" alt ="vatican_1" width ="100%"></a>
-				<div class = "desc">Vatican</div>
+				<a href='images/vatican_1.jpg' class='fresco' data-fresco-group='example'
+         data-fresco-caption="Vatican Museum,2015"><img src = "images/vatican_1.jpg" alt ="vatican_1" width ="100%"></a>
+				<div class = "desc">At Vatican Museum</div>
 			</div>
 			<div class = "imagebox">
-				<a target="_blank"><img src = "images/london.jpg" alt ="london" width ="100%"></a>
-				<div id ="child" class = "desc">London</div>
+				<a href='images/london.jpg' class='fresco' data-fresco-group='example'
+         data-fresco-caption="A Scene in London,2015"><img src = "images/london.jpg" alt ="london" width ="100%"></a>
+				<div id ="child" class = "desc">A scene in London</div>
 			</div>
 			<div class = "imagebox">
-				<a target="_blank"><img src = "images/vatican_2.jpg" alt ="vatican_2" width ="100%"></a>
-				<div class = "desc">Vatican</div>
+				<a href='images/vatican_2.jpg' class='fresco' data-fresco-group='example'
+         data-fresco-caption="Vatican Museum,2015"><img src = "images/vatican_2.jpg" alt ="vatican_2" width ="100%"></a>
+				<div class = "desc">At Vatican Museum, Vatican</div>
 			</div>
 			<div class = "imagebox">
-				<a target="_blank"><img src = "images/monmarte.jpg" alt ="monmarte" width ="100%"></a>
-				<div class = "desc">Monmarte</div>
+				<a href='images/monmarte.jpg' class='fresco' data-fresco-group='example'
+         data-fresco-caption="Monmarte,2015"><img src = "images/monmarte.jpg" alt ="monmarte" width ="100%"></a>
+				<div class = "desc">Monmarte, Paris</div>
 			</div>
 			<div class = "imagebox">
-				<a target="_blank"><img src = "images/samcheong.jpg" alt ="sancheong" width ="100%"></a>
-				<div class = "desc">Samcheong</div>
+				<a href='images/samcheong.jpg' class='fresco' data-fresco-group='example'
+         data-fresco-caption="Samcheong-dong,Seoul,2014"><img src = "images/samcheong.jpg" alt ="sancheong" width ="100%"></a>
+				<div class = "desc">Samcheong-Dong, Seoul</div>
 			</div>
 			<div class = "imagebox">
-				<a target="_blank"><img src = "images/a_dog.jpg" alt ="dog" width ="100%"></a>
-				<div class = "desc">A Dog</div>
+				<a href='images/a_dog.jpg' class='fresco' data-fresco-group='example'
+         data-fresco-caption="A dog,2014"><img src = "images/a_dog.jpg" alt ="dog" width ="100%"></a>
+				<div class = "desc">A Dog (Shiba Inu) </div>
 			</div>
 			<div class = "imagebox">
-				<a target="_blank"><img src = "images/a_man.jpg" alt ="man" width ="100%"></a>
-				<div class = "desc">A Man</div>
+				<a href='images/a_man.jpg' class='fresco' data-fresco-group='example'
+         data-fresco-caption="A man,2014"><img src = "images/a_man.jpg" alt ="man" width ="100%"></a>
+				<div class = "desc">A Man waiting in line</div>
 			</div>
 	</section>
 	<div/>
@@ -144,6 +154,7 @@
 	</script>
 	<script src="../assets/jquery.js"></script>
 	<script src="../assets/imagelightbox.js"></script>
+	<script type="text/javascript" src="../assets/js/fresco.js"></script>
 	<script>
 	    $( function()
 	    {

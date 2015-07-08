@@ -28,6 +28,7 @@
 div.imagebox{
 	width : 50%;
 	height : 50%;
+	padding : 20px;
 	float : left;
 	text-align: center;
 	-moz-transition:-moz-transform 0.5s ease-in; 
@@ -48,13 +49,15 @@ div.imagebox a:hover img{
     -moz-box-shadow: 10px 10px 5px #ccc; 
     -webkit-box-shadow: 10px 10px 5px #ccc; 
     -khtml-box-shadow: 10px 10px 5px #ccc; 
-    -moz-transform:scale(1.2); 
-	-webkit-transform:scale(1.2);
-	-o-transform:scale(1.2);
+    -moz-transform:scale(1.05); 
+	-webkit-transform:scale(1.05);
+	-o-transform:scale(1.05);
 }
 
 div.desc {
+	padding-top: 20px;
 	text-align : center;
-	font-weight: normal;
+	font-weight: lighter;
 	width :auto;
+	color: #81918E;
 }
