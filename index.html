@@ -1,217 +1,75 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Prologue by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link rel="stylesheet" href="assets/css/jquery.bxslider.css"/>
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Minjoo Lisa Cho's Portfolio Page</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Minjoo Cho">
+	<!--<meta name="description" content="Magnetic is a stunning responsive HTML5/CSS3 photography/portfolio website template"/>-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
 
-		<!-- Header -->
-			<div id="header">
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="img/logo-01.png" title="Minjoo" alt="Minjoo"/></a>
+		</div><!-- end logo -->
 
-				<div class="top">
+		<div id="menu_icon"></div>
+		<nav>
+			<ul>
+				<li><a href="index.html" class="selected">About Me</a></li>
+				<li><a href="portfolio/portfolio.html">Portfolio</a></li>
+				<li><a href="DIY/DIY.html">DIY</a></li>
+				<li><a href="scribbles/scribbles.html">Scribbles</a></li>
+				<li><a href="#">Contact Me</a></li>
+			</ul>
+		</nav><!-- end navigation menu -->
 
-					<!-- Logo -->
-						<div id="logo">
-							<!-- <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>-->
-							<h1 id="title">Minjoo Cho</h1>
-							<p>Industrial Designer</p>
-						</div>
+		<div class="footer clearfix">
+			<ul class="social clearfix">
+				<li><a href="https://instagram.com/whenithappens15/" class="insta" data-title="Instagram"></a></li>
+				<li><a href="https://www.pinterest.com/koopoo87/" class="pinterest" data-title="Pinterest"></a></li>
+				<li><a href="https://kr.linkedin.com/pub/minjoo-cho/4a/237/a1b" class="linkedin" data-title="Linkedin"></a></li>
+			</ul><!-- end social -->
 
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
+			<div class="rights">
+				<p>Copyright © 2014 magnetic.</p>
+				<p>Template by <a href="">Pixelhint.com</a></p>
+			</div><!-- end rights -->
+		</div ><!-- end footer -->
+	</header><!-- end header -->
 
-								Prologue's nav expects links in one of two formats:
+	<section class="main clearfix">
+		<section class="top about">	
+			<div class="wrapper content_header clearfix">
+					<h1 class="title" style = "text-align:center">Sometimes the heart sees what is invisible to the eyes</h1>
+			</div>		
+		</section><!-- end top -->
+		<section class="wrapper">
+			<div class="content">
+				<!--<p style = "text-align:center"><font size ="4">Hello I'm <strong>Minjoo Cho</strong>, an interdisciplinary product designer <br/>
+				studied Engineering / Language, worked as a marketer </br>and now seeking for beauty in life</font><br/></p>-->
 
-								1. Hash link (scrolls to a different section within the page)
 
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+				<p>I’m Minjoo Cho, a Masters candidate in <a href = "http://mid.kaist.ac.kr"><strong>myDesignLab</strong></a> 
+				at KAIST(Korean Advanced Institute of Science and Technology) based in Daejeon, South Korea.<br/><br/>
 
-								2. Standard link (sends the user to another page/site)
+				Prior to KAIST, I worked at <a href = "http://www.bbc.com/news/technology-33062693"><strong>C-Lab(Creative Lab)</strong></a> 
+				& Mobile Product Planning team in Samsung Electronics, HQ. <br/><br/>
 
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+				Before working at Samsung, I either studied or worked in fields that looks random but broad in range.<br/><br/>
 
-							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="drawings/scribbles.html#scribbles" id="drawings-link" class="skel-layers-ignoreHref"><span class="icon fa-pencil">Scribbles</span></a></li>
-								<!--Make a new link for Scribbles -->
-								<li><a href="DIY/DIY.html#DIY" id="DIY-link" class="skel-layers-ignoreHref"><span class="icon fa-gavel">DIY</span></a></li>
-								<!--Make a new link for DIY-->
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<!--<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>-->
-							</ul>
-						</nav>
+				The webpage is to share my design pieces within various interests, 
+				hoping for working in a interdisciplinary design team encompassing Engineering and Humanities.</font></p>
 
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.pinterest.com/koopoo87/" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
-							<li><a href="https://kr.linkedin.com/pub/minjoo-cho/4a/237/a1b" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:minjoolisa.cho@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
-				</div>
-
-			</div>
-
-		<!-- Main -->
-			<div id="main">
-
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-
-							<header>
-								<h2 class="alt">Sometimes the heart sees <br/>what is invisible to the eyes<br /><br />
-								</h2>
-								<p><font size ="4">Hello I'm <strong>Minjoo Cho</strong>, an interdisciplinary product designer <br/>
-									studied Engineering / Language, worked as a marketer and now seeking for beauty in life</font><br /> 
-								</p>
-							</header>
-
-							<footer>
-								<a href="#portfolio"><font size ="5">PORTFOLIO</font></a>
-							</footer>
-							</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">		
-							<header><h2 class ="alt" style="color: #81918E" "font-weight:900">PORTFOLIO<br/><br/></h2></header>
-							<p style="color: #81918E" "font-weight:900">PRODUCT DESIGN</p>
-					         <ul class="bxslider">
-					            <li>
-					              <a href="portfolio/product_design/lamp.html#portfolio"><img src="img/organic_lamp_edit.jpg" alt="lamp"/></a> 
-					            </li>
-					            <li>
-					              <a href="portfolio/product_design/traffic_cone.html#portfolio"><img src="img/traffic_cone_edit.jpg" alt="traffic cone"/></a>
-					            </li>
-					            <li>
-					              <a href="portfolio/product_design/cup_collector.html#portfolio"><img src="img/cup_collector.jpg" alt="cup collector" /></a>
-					            </li>
-					        </ul><br/><br/>
-					        <p style="color: #81918E" "font-weight:900">UX DESIGN</p>
-					        <ul class="bxslider">
-					            <li>
-					              <a href="portfolio/UX_design/Hairday.html#portfolio"><img src="img/Hairday.jpg" alt="Hair day"/></a> 
-					            </li>
-					        </ul><br/><br/>
-					        <p style="color: #81918E" "font-weight:900">GRAPHIC DESIGN</p>
-					        <ul class="bxslider">
-					            <li>
-					              <a><img src="img/Logo_MIRo.jpg" alt="LogoDesign"/></a> 
-					            </li>
-					        </ul><br/><br/>
-						</div>
-					</section>
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<header><h2 class ="alt">ABOUT ME<br/><br/></h2></header>
-							</header>
-
-							<a href="#" class="image featured"><img src="img/profile.jpg" alt="" /></a>
-
-							<p><font size ="4">I’m Minjoo Cho, a Masters candidate in <a href = "http://mid.kaist.ac.kr"><strong>myDesignLab</strong></a> at KAIST(Korean Advanced Institute of Science and Technology) based in Daejeon, South Korea.<br/><br/>
-
-							Prior to KAIST, I worked at <a href = "http://www.bbc.com/news/technology-33062693"><strong>C-Lab(Creative Lab)</strong></a> & Mobile Product Planning team in Samsung Electronics, HQ. <br/><br/>
-
-							Before working at Samsung, I either studied or worked in fields that looks random but broad in range.<br/><br/>
-
-							The webpage is to share my design pieces within various interests, hoping for working in a interdisciplinary design team encompassing Engineering and Humanities.</font></p>
-
-							<footer>
-								<a href="portfolio/CV_Design_Minjoo.pdf" class="button scrolly"><strong><font color ="#FFFFFF">Download CV</font></strong></a>
-							</footer>
-
-						</div>
-					</section>
-
-				<!-- Contact 
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="12u$">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
-						</div>
-					</section>
-					-->
-			
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-			<!-- bx slider -->
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-			<!-- bxSlider Javascript file -->
-			<script src="assets/js/jquery.bxslider.min.js"></script>
-			<script type="text/javascript">
-				$(document).ready(function(){
-				  $('.bxslider').bxSlider({
-				    slideWidth: 1024,
-				    minSlides: 1,
-				    maxSlides: 3,
-				    slideMargin: 1,
-				    auto: true,
-				    autoControls: true,
-				    infiniteLoop: false,
-				    hideControlOnEnd: true
-				  });
-				});
-			</script>
-	</body>
-	<!-- Footer 
-	<div id="footer">
-
-	<!-- Copyright 
-	<ul class="copyright">
-	<li>&copy; Minjoo Cho's Portfolio Page</li>
-	</ul>-->
-
-	</div>
+				<h2 style = "text-align:center"><a href ="CV_Design_Minjoo.pdf">DOWNLOAD CV</a></h2>
+			</div><!-- end content -->
+		</section>
+	</section><!-- end main -->
+	
+</body>
 </html>
