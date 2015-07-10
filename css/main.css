@@ -185,31 +185,31 @@ h5, h6          { font-weight: bolder }
         display: block;
         width: 30px;
         height: 30px;
-        background: url('../img/sm.png') no-repeat;
-        background-position: 0 0;
+        /*background: url('../img/sm.png') no-repeat;
+        background-position: 0 0;*/
     }
 
 
     header nav ul.social li a:hover{
-        background: url('../img/sm_hover.png') no-repeat;
+        /*background: url('../img/sm_hover.png') no-repeat;*/
     }
 
 
 
     header nav ul.social li a.insta,
     header nav ul.social li a.insta:hover{
-        background-position: 0 0;
+        /*background-position: 0 0;*/
     }
 
 
     header nav ul.social li a.pinterest,
     header nav ul.social li a.pinterest:hover{
-        background-position: -31px 0;
+        /*background-position: -31px 0;*/
     }
 
     header nav ul.social li a.linkedin,
     header nav ul.social li a.linkedin:hover{
-        background-position: -62px 0;
+        /*background-position: -62px 0;*/
     }
 
     /*header ul.social li a.twitter,
@@ -621,9 +621,11 @@ h5, h6          { font-weight: bolder }
     }
 
     header nav ul{
+        display:block;
         list-style: none;
         display: none;
         position: relative;
+        background: #fff;
     }
     header nav ul li a{
         display: block;
@@ -635,27 +637,25 @@ h5, h6          { font-weight: bolder }
         font-size: 14px;
         text-decoration: none;
         border-top: 1px solid #f7f5f5;
-        background: #fff;
+
     }
     header nav ul li a:active{
         background: #f7f5f5;
     }
 
-    header nav ul.social {
+    header nav ul .social {
         border-top: 1px  solid #f7f5f5;
-        border-bottom: 1px  solid #f7f5f5;
-        background: #fff;
-        padding: 30px 20px 60px;
+        width : 100%;
+        background: #000;
         /*margin-right: 10px;*/
 
     }
 
-    header nav ul.social li{
-
+    header nav ul .social li{
         display: block;
         float: right;
         position: relative;
-        margin: 0 15px 15px 0px;
+        margin: 0px 15px 0px 0px;
 
     }
 
@@ -664,30 +664,8 @@ h5, h6          { font-weight: bolder }
         display: block;
         width: 30px;
         height: 30px;
-        background: url('../img/sm.png') no-repeat;
-        background-position: 0 0;
-    }
-
-    header nav ul.social li a:hover{
-        background: url('../img/sm_hover.png') no-repeat;
-    }
-
-
-
-    header nav ul.social li a.insta,
-    header nav ul.social li a.insta:hover{
-        background-position: 0 0;
-    }
-
-
-    header nav ul.social li a.pinterest,
-    header nav ul.social li a.pinterest:hover{
-        background-position: -31px 0;
-    }
-
-    header nav ul.social li a.linkedin,
-    header nav ul.social li a.linkedin:hover{
-        background-position: -62px 0;
+        /*background: url('../img/sm.png') no-repeat;
+        background-position: 0 0;*/
     }
 
     #menu_icon,
