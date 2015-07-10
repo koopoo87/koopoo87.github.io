@@ -581,6 +581,10 @@ h5, h6          { font-weight: bolder }
 
 }
 
+.content a:hover,
+.content a.selected{
+    color: #969595;
+}
 
 
 
@@ -609,11 +613,6 @@ h5, h6          { font-weight: bolder }
 #map img{
     max-width: none;
 }
-
-
-
-
-
 
 
 /*  Tooltip  */
@@ -647,6 +646,7 @@ h5, h6          { font-weight: bolder }
     left: 50%;
     margin-left: -3px;
 }
+
 
 
 
