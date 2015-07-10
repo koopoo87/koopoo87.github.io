@@ -196,8 +196,8 @@ h5, h6          { font-weight: bolder }
 
 
 
-    header nav ul.social li a.insta,
-    header nav ul.social li a.insta:hover{
+    header nav ul.social li a.linkedin,
+    header nav ul.social li a.linkedin:hover{
         background-position: 0 0;
     }
 
@@ -207,8 +207,8 @@ h5, h6          { font-weight: bolder }
         background-position: -31px 0;
     }
 
-    header nav ul.social li a.linkedin,
-    header nav ul.social li a.linkedin:hover{
+    header nav ul.social li a.insta,
+    header nav ul.social li a.insta:hover{
         background-position: -62px 0;
     }
 
@@ -636,7 +636,7 @@ h5, h6          { font-weight: bolder }
         font-family: "raleway-regular", arial;
         font-size: 14px;
         text-decoration: none;
-        border-top: 1px solid #f7f5f5;
+        border-bottom: 1px solid #f7f5f5;
 
     }
     header nav ul li a:active{
@@ -644,18 +644,18 @@ h5, h6          { font-weight: bolder }
     }
 
     header nav ul .social {
-        border-top: 1px  solid #f7f5f5;
-        width : 100%;
+        
+        border-bottom: 1px  solid #f7f5f5;
         background: #fff;
-        padding-top: 10px;
+        padding-top: 0px;
+        padding-bottom: 80px;
 
     }
 
     header nav ul .social li{
-        display: block;
         float: right;
         position: relative;
-        margin: 0px 15px 0px 0px;
+        margin: 20px 15px 0px 0px;
 
     }
 
@@ -663,7 +663,7 @@ h5, h6          { font-weight: bolder }
     header nav ul.social li a{
         display: block;
         width: 30px;
-        height: 30px;
+        height: auto;
         background: url('../img/sm.png') no-repeat;
         background-position: 0 0;
     }
