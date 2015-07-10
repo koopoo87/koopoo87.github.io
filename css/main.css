@@ -741,8 +741,8 @@ h5, h6          { font-weight: bolder }
 
 
 
-    header nav ul.social li a.insta,
-    header nav ul.social li a.insta:hover{
+    header nav ul.social li a.linkedin,
+    header nav ul.social li a.linkedin:hover{
         background-position: 0 0;
     }
 
@@ -752,8 +752,8 @@ h5, h6          { font-weight: bolder }
         background-position: -31px 0;
     }
 
-    header nav ul.social li a.linkedin,
-    header nav ul.social li a.linkedin:hover{
+    header nav ul.social li a.insta,
+    header nav ul.social li a.insta:hover{
         background-position: -62px 0;
     }
     #menu_icon,
