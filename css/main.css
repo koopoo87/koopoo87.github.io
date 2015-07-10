@@ -74,7 +74,7 @@ body{
     margin: 0 auto;
 }
 
-header ul.social li a,
+header nav ul.social li a,
 .main .work a .caption,
 header nav ul li a{
     transition:all .1s linear;
@@ -160,26 +160,28 @@ h5, h6          { font-weight: bolder }
         color: #969595;
     }
 
-    header .footer{
+    
+    /*header .footer{
         position: absolute;
         bottom: 50px;
-    }
+    }*/
 
-    header ul.social{
+    /*header nav ul.social{
         list-style: none;
         margin-bottom: 5px;
-    }
+    }*/
 
-    header ul.social li{
+    
+
+    header nav ul.social li{
         display: block;
         float: left;
         position: relative;
         margin: 0 15px 15px 0;
     }
 
-
-
-    header ul.social li a{
+    
+    header nav ul.social li a{
         display: block;
         width: 30px;
         height: 30px;
@@ -188,25 +190,25 @@ h5, h6          { font-weight: bolder }
     }
 
 
-    header ul.social li a:hover{
+    header nav ul.social li a:hover{
         background: url('../img/sm_hover.png') no-repeat;
     }
 
 
 
-    header ul.social li a.insta,
-    header ul.social li a.insta:hover{
+    header nav ul.social li a.insta,
+    header nav ul.social li a.insta:hover{
         background-position: 0 0;
     }
 
 
-    header ul.social li a.pinterest,
-    header ul.social li a.pinterest:hover{
+    header nav ul.social li a.pinterest,
+    header nav ul.social li a.pinterest:hover{
         background-position: -31px 0;
     }
 
-    header ul.social li a.linkedin,
-    header ul.social li a.linkedin:hover{
+    header nav ul.social li a.linkedin,
+    header nav ul.social li a.linkedin:hover{
         background-position: -62px 0;
     }
 
@@ -407,6 +409,7 @@ h5, h6          { font-weight: bolder }
     background-position: 50% 50%;
 }
 
+
 .work_nav{
     display: block;
     width: 100%;
@@ -426,6 +429,8 @@ h5, h6          { font-weight: bolder }
     margin: 0 0 1px 1px;
     position: relative;
 }
+
+
 
 .work_nav a{
     display: block;
@@ -598,9 +603,9 @@ h5, h6          { font-weight: bolder }
         margin: 40px 0 0 30px;
         float: left;
     }
-    header .footer{
+    /*header .footer{
         display: none;
-    }
+    }*/
     header #menu_icon,
     header .close_menu{
         float: right;
@@ -635,6 +640,56 @@ h5, h6          { font-weight: bolder }
     header nav ul li a:active{
         background: #f7f5f5;
     }
+
+    header nav ul.social {
+        border-top: 1px  solid #f7f5f5;
+        border-bottom: 1px  solid #f7f5f5;
+        background: #fff;
+        padding: 30px 20px 60px;
+        /*margin-right: 10px;*/
+
+    }
+
+    header nav ul.social li{
+
+        display: block;
+        float: right;
+        position: relative;
+        margin: 0 15px 15px 0px;
+
+    }
+
+    
+    header nav ul.social li a{
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url('../img/sm.png') no-repeat;
+        background-position: 0 0;
+    }
+
+    header nav ul.social li a:hover{
+        background: url('../img/sm_hover.png') no-repeat;
+    }
+
+
+
+    header nav ul.social li a.insta,
+    header nav ul.social li a.insta:hover{
+        background-position: 0 0;
+    }
+
+
+    header nav ul.social li a.pinterest,
+    header nav ul.social li a.pinterest:hover{
+        background-position: -31px 0;
+    }
+
+    header nav ul.social li a.linkedin,
+    header nav ul.social li a.linkedin:hover{
+        background-position: -62px 0;
+    }
+
     #menu_icon,
     .close_menu,
     .show_menu{
