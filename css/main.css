@@ -185,31 +185,31 @@ h5, h6          { font-weight: bolder }
         display: block;
         width: 30px;
         height: 30px;
-        /*background: url('../img/sm.png') no-repeat;
-        background-position: 0 0;*/
+        background: url('../img/sm.png') no-repeat;
+        background-position: 0 0;
     }
 
 
     header nav ul.social li a:hover{
-        /*background: url('../img/sm_hover.png') no-repeat;*/
+        background: url('../img/sm_hover.png') no-repeat;
     }
 
 
 
     header nav ul.social li a.insta,
     header nav ul.social li a.insta:hover{
-        /*background-position: 0 0;*/
+        background-position: 0 0;
     }
 
 
     header nav ul.social li a.pinterest,
     header nav ul.social li a.pinterest:hover{
-        /*background-position: -31px 0;*/
+        background-position: -31px 0;
     }
 
     header nav ul.social li a.linkedin,
     header nav ul.social li a.linkedin:hover{
-        /*background-position: -62px 0;*/
+        background-position: -62px 0;
     }
 
     /*header ul.social li a.twitter,
@@ -646,8 +646,8 @@ h5, h6          { font-weight: bolder }
     header nav ul .social {
         border-top: 1px  solid #f7f5f5;
         width : 100%;
-        background: #000;
-        /*margin-right: 10px;*/
+        background: #fff;
+        padding-top: 10px;
 
     }
 
@@ -664,10 +664,33 @@ h5, h6          { font-weight: bolder }
         display: block;
         width: 30px;
         height: 30px;
-        /*background: url('../img/sm.png') no-repeat;
-        background-position: 0 0;*/
+        background: url('../img/sm.png') no-repeat;
+        background-position: 0 0;
     }
 
+
+
+    header nav ul.social li a:hover{
+        background: url('../img/sm_hover.png') no-repeat;
+    }
+
+
+
+    header nav ul.social li a.insta,
+    header nav ul.social li a.insta:hover{
+        background-position: 0 0;
+    }
+
+
+    header nav ul.social li a.pinterest,
+    header nav ul.social li a.pinterest:hover{
+        background-position: -31px 0;
+    }
+
+    header nav ul.social li a.linkedin,
+    header nav ul.social li a.linkedin:hover{
+        background-position: -62px 0;
+    }
     #menu_icon,
     .close_menu,
     .show_menu{
