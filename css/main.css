@@ -363,6 +363,16 @@ h5, h6          { font-weight: bolder }
     -o-background-size: cover;
     background-position: 50% 50%;
 }
+
+.sketch{
+    background: url('../portfolio/img/sketch_title.jpg') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+
 .lamps{
     background: url('../portfolio/img/organic_lamp_title.jpg') no-repeat;
     background-size: cover;
