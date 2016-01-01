@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Minjoo Lisa Cho's Portfolio Page</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Minjoo Cho">
+	<!--<meta name="description" content="Magnetic is a stunning responsive HTML5/CSS3 photography/portfolio website  template"/>-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/jquery.bxslider.css"/>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="../js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('.bxslider').bxSlider({
+		    slideWidth: 1024,
+		    minSlides: 1,
+		    maxSlides: 3,
+		    slideMargin: 1,
+		    auto: true,
+		    autoControls: true,
+		    infiniteLoop: false,
+		    hideControlOnEnd: true
+		  });
+		});
+	</script>
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+			<a href="../index.html"><img src="../img/logo.png" title="Magnetic" alt="Magnetic"/></a>
+		</div><!-- end logo -->
+
+		<div id="menu_icon"></div>
+		<nav>
+			<ul>
+				<li><a href="../index.html">About Me</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="../DIY/DIY.html">DIY</a></li>
+				<li><a href="../scribbles/scribbles.html">Scribbles</a></li>
+				<li><a href="../scribbles/scribbles.html">Experiences</a></li>
+				<li><a href="../CV_Design_Minjoo.pdf">CV</a></li>
+				<ul class ="social">
+					<li><a href="https://kr.linkedin.com/pub/minjoo-cho/4a/237/a1b" class = "linkedin"></a></li>
+					<li><a href="https://www.pinterest.com/koopoo87/" class = "pinterest"></a></li>
+					<li><a href="https://instagram.com/whenithappens15/" class = "insta"></a></li>
+				</ul>
+			</ul>
+		</nav><!-- end navigation menu -->
+	</header><!-- end header -->
+
+	<section class="main clearfix">
+		<section class="top horizons">	
+			<div class="wrapper content_header clearfix">
+				<div class="work_nav">
+							
+					<ul class="btn clearfix">
+						<li><a href="#.html" class="previous" data-title="Previous"></a></li>
+						<li><a href="portfolio.html" class="grid" data-title="Portfolio"></a></li>
+						<li><a href="lamps.html" class="next" data-title="Next"></a></li>
+					</ul>							
+					
+				</div><!-- end work_nav -->
+				<h1 class="title"> Beyond Horizons : A Conceptual Digital Clock</h1>
+			</div>		
+		</section><!-- end top -->
+
+		<section class="wrapper">
+			<div class="content">
+				<a><video src = "video/BeyondHorizons.mp4" width = "100%" controls autoplay><video/></a><br/><br/><br/><br/>
+
+				<h2>Concept</h2>
+
+				<p>Beyond Horizons is an conceptual disk-shaped clock that was aimed to give users a moment of meditative experience. <br/><br/>
+
+				The thin disk displays the current time with small metal balls pulled by array of magnets attached on the bottom layer of the disk plate. <br/><br/>
+
+				While slowly spinning on the surface, the metal balls somtimes wash away part of the displayed numbers or group together with beautiful sound. <br/><br/>
+
+				The current prototype is made to propose a concept to the clock design and the clock should be improved to display numbers automatically using electromagnetic circuits. <br/><br/>
+				</p>
+	
+
+				 <ul class="bxslider">
+			            <li>
+			             <a><img src="img/horizons_11.jpg"></a>
+			            </li>
+			            <li>
+			             <a><img src="img/horizons_10.jpg"></a>
+			            </li>
+			            <li>
+			             <a><img src="img/horizons_9.jpg"></a>
+			            </li>
+			            <li>
+			             <a><img src="img/horizons_8.jpg"></a>
+			            </li>
+			            
+			     </ul><br/>
+
+				<h2>Designing Process : Mechanisms </h2>
+
+				<p>
+				The biggest challenge of this clock was to make a thin, sleek disk spinning beautifully with the simplest mechanism on the closest distance from the surface.
+				<br/><br/> 
+
+				Tilting approximately 5 degree from the surface showed the most aeathetic outcome after serveral trials from the primitive experiment. <br/><br/>
+
+				Following sketch suggests several possible types of mechanisms and its required components. Both 3D printer and laser cutting with acrylic board were also actively utilized throughout the design process. <br/><br/>
+				</p>
+
+				 <ul class="bxslider">
+			            <li>
+			             <a><img src="img/horizons_2.jpg"></a>
+			            </li>
+			            <li>
+			              <a><img src="img/horizons_7.jpg"></a>
+			            </li> 
+			     </ul><br/>		
+
+			    <p><br/><br/><br/>After numbers of trial and error, following mechanism was fixed to be the final design.<br/><br/><br/>
+
+			    <a><img src="img/horizons_3.jpg"></a>
+
+				<br/><br/><br/>
+				I put the disk only sustained with the top spinning part of the motor which gives the display freedom of movement in any direction only having an axis anchored.<br/><br/> 
+
+				To prevent the disk(display) to spin around along with the motor axis, I connected one part of the disk with the rubber band that loosely holds the disk part that also enabled the disk to move up and down, achieving perfect wobbling motion. <br/><br/>  
+
+				To make the clock interact with users, I attached leap motion sensor to the prototype and made it respond to users’ hand gestures. <br/><br/>  
+
+				When the user draws a circle in a clockwise direction, the clock changes its direction and follow users’ direction. Processing was used to connect leap motion sensor and Arduino. <br/><br/>  
+			    </p>
+  
+		        <h2>3D Modeling</h2>
+
+				<p>Inventor 2015 was used to simulate mechanisms. The spinning part attached to the stepper motor is exported to print with 3D printers.<br/><br/>
+				</p>
+
+				<ul class="bxslider">
+			            <li>
+			              <a><img src="img/horizons_4.jpg"></a>
+			            </li>
+			            <li>
+			             <a><img src="img/horizons_5.jpg"></a>
+			            </li>
+			            <li>
+			             <a><img src="img/horizons_6.jpg"></a>
+			            </li>
+			            <li>
+			             <a><img src="img/horizons_13.jpg"></a>
+			            </li>
+			     </ul><br/>
+
+				<h2>Future Works</h2>
+
+				<p>The biggest limitation of this design was that it was just a conceptual image, not a real clock that displays the real-time information. For the future work, I would spend time to make the clock automatic with electromagnetics that generates magnetic force only for short period of time. </p>
+
+			</div><!-- end content -->
+		</section>
+	</section><!-- end main -->
+	
+</body>
+</html>
