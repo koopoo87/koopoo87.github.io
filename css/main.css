@@ -364,6 +364,15 @@ h5, h6          { font-weight: bolder }
     background-position: 50% 50%;
 }
 
+.horizons{
+    background: url('../portfolio/img/beyond_horizons_title.jpg') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+
 .sketch{
     background: url('../portfolio/img/sketch_title.jpg') no-repeat;
     background-size: cover;
