@@ -77,11 +77,9 @@
 
 				<h2>Concept</h2>
 
-				<p>Beyond Horizons is an conceptual disk-shaped clock that was aimed to give users a moment of meditative experience. <br/><br/>
+				<p>  Beyond Horizon is a conceptual clock wobbling around near the surface while displaying the time with the metal balls floating on the surface. The user can control the rotational directions (clockwise / counterclockwise) with the leap motion sensor with simple hand gestures.  <br/><br/>
 
-				The thin disk displays the current time with small metal balls anchored with the magnetic force from array of magnets attached to the bottom layer of the disk. <br/><br/>
-
-				While slowly spinning on the surface, the metal balls shows beautiful kinetic movements while repeatedly dispersing away or flocking together with beautiful sound. <br/><br/>
+				The main part of Beyond Horizon are thin cylindrical disks (diameter : 40mm), which are each filled with metal balls.  An array of magnets attached to the opposite side of the disk give the metal balls beautiful movements down the surface. <br/><br/>
 
 				The current prototype is made as a conceptual clock design leaving implementation of the automatic number display as a future work. <br/><br/>
 				</p>
@@ -106,15 +104,13 @@
 				<h2>Designing Process : Mechanisms </h2>
 
 				<p>
-				The biggest challenge of Beyond Horizon was to make a thin, sleek disk spinning beautifully with the simplest mechanism with the closest distance from the surface.
-				<br/><br/> 
+				The most challenging part of Beyond Horizons was acheiving gentle wobbling motions while maintaining the thin and sophisticated design.
+				
 
-				Several trials proved that tilting approximately 5 degrees from the surface showed the most aesthetic movment. <br/><br/>
-
+			    <br/><br/>
 				Following sketch illustrates several possible types of mechanisms and its required components. Both the 3D printer and the laser cutter were utilised throughout the design process. <br/><br/>
-				</p>
-
-				 <ul class="bxslider">
+				
+				<ul class="bxslider">
 			            <li>
 			             <a><img src="img/horizons_2.jpg"></a>
 			            </li>
@@ -122,19 +118,23 @@
 			              <a><img src="img/horizons_7.jpg"></a>
 			            </li> 
 			     </ul><br/>		
+				<h2>Fianl Design </h2>
+				<br/>After numbers of trial and error, following mechanism was fixed as the final design.<br/><br/>
 
-			    <p><br/><br/><br/>After numbers of trial and error, following mechanism was fixed as the final design.<br/><br/><br/>
+				
+				 I anchored the axis of the motor to the center point of the disk. It gave the disk full freedoom of rotation, similar to a ball joint. <br/><br/>
+
+				 To prevent the disk (display) from spinning together with the motor axis, I connected one end of the disk with a rubber band that loosely anchors the disk while applying a mininum amount of force to move the disk up and down. 
+				<br/><br/>
 
 			    <a><img src="img/horizons_3.jpg"></a>
 
-				<br/><br/><br/>
-				  I made the disk sustained only from the center point with the axis of  the motor. It gave the disks the full degree of freedom as in the principles from the ball joint.<br/><br/> 
+				<h2>User Interface </h2>
+				As an interactive user input, a Leap Motion sensor was attached to the device to recognize the user's hand gestures.  <br/><br/>   The clockwise gesture triggers the clock to move in a clock-wise direction and vice versa. 
+Processing was used to connect the Leap Motion sensor and Arduino.
+ <br/><br/>  
+ 				<a><img src="img/beyond_horizon_interface.jpg"></a>
 
-				To prevent the disk(display) from spinning together with the motor axis, I connected one part of the disk with the rubber band that loosely anchors the disk part but sustaining mininum amount of force to move disk up and down.  <br/><br/>  
-
-				As an interactive user input, Leap motion sensor was attached to the device to recognize user's hand gestures. <br/><br/>  
-
-				The clockwise gesture triggers the clock to move in clock-wise diretion and vice versa. Processing was used to connect leap motion sensor and Arduino. <br/><br/>  
 			    </p>
   
 		        <h2>3D Modeling</h2>
