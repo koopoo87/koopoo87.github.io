@@ -83,28 +83,22 @@
 
 
 		<!-- Page section -->
-			<div class="page-section blog-page">
-			<div class="blog-warp">
-					<div class="blog-post">
-						<div class="blog-thumb set-bg" data-setbg="./img/Portaldoor.jpg">
-							<div class="post-date">
-								<h3>10</h3>
-								<span>Nov, ‘18</span>
-							</div>
-						</div>
-						<div class="license">
-							<p>Image by <a href="https://actumlab.com/en/home/">ActumLab</a></p>
-						</div>
-						<h2 class="post-title">AR Portal Door</h2>
-						<div class="post-metas">
-							<div class="post-meta">By Minjoo Cho</div>|
-							<div class="post-meta">AR/VR</div>
-						</div>
+			<div class="page-section gallery-single-page">
+			<div class="gallery-single-warp">
+				<div class="col">
+					<div class="gallery-single-text">
+
+						<a><img src="./img/Portaldoor.jpg"></a></p>
+						<span>AR/VR</span>
+						<h2>>AR Portal Door</h2>
+						<ul>
+							<li>June, 2017</li>
+						</ul>
 						<p>The world's famous Japanese animation <a href="https://en.wikipedia.org/wiki/Doraemon">"Doraemon"</a>(First starred in 70s) depicts the story of Nobita, an ordinary boy, after his encounter to a mysterious cat-looking creature called Doraemon. Doraemon is not a mere pet but has special pocket on his belly that brings every nobel inventions to solve daily problems in the most creative way.</br>
 
 						The most iconic (or repeadly appearing) tool is "Docodemo Door"(translated as "wherever door" in English). When Doraemon pops up an enormous door from his pocket and throws to the floor, it transports people to everywhere they would like to go.</p>
 
-						<a><img src="img/dokodemo-door.jpg"></a>
+						<a><img src="img/dokodemo-door.jpg"></a></p>
 
 						<p>The advent of AR/VR technology enabled us to experience the most surreal effects, and the first thing that I would like to implement was this transspacial door that I've been longing to experience for so many years. (and it seemed it was not only me who has thought in this way :))</p>
 
@@ -116,20 +110,21 @@
 
 						<p>The approached to make a portal door is easily done by applying stencil material to the sphere object according to the viewpoint of the user camera. The following Youtube video helped me to write simple shader code to achieve this effect</p>
 
-						<iframe width="853" height="480" src="https://www.youtube.com/embed/Tj0KQiuc7AI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="100%" height="480"src="https://www.youtube.com/embed/Tj0KQiuc7AI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 						<h2>RESULT</h2>
 						<p>I mapped license free 360 degree video (You can easily find link from <a href="https://vimeo.com/215984568">here<a/>) to test the code, and the result is shown as following video :) </br>
 
 						By applying the similar scale to the real object, the effect looks more bizzare. </p>
 
-						<video width="853" height="480" src="video/AR_Portaldoor.mp4" allowfullscreen controls muted=""></iframe>
+						<video width="100%" height="480" src="video/AR_Portaldoor.mp4" allowfullscreen controls muted=""></iframe>
 
 						<h2>WITH GOOGLE CARDBOARD</h2>
 						<p>Sadly, ARCore still does not support Google Cardboard complile in Unity environment. As an get-around-method, I used the plane recognition feature in <a href="https://developer.vuforia.com/">Vuforia</a> instead. However, the head tracking is not as smooth as I expected, and sometimes the portal space looses its spatial location too frequently.</p>
 
 					</div>
 				</div>
+			</div>
 		</div>
 		<!-- Page section end-->
 	</div>

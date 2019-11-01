@@ -880,6 +880,19 @@ ol {
 	padding: 75px 70px 0 80px;
 }
 
+.gallery-single-text .license {
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	float: right;
+}
+
+
+.gallery-single-text .license p {
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 35px;
+}
 .gallery-single-text span {
 	font-size: 11px;
 	font-weight: 700;
@@ -918,16 +931,22 @@ ol {
 	display: inline-block;
 }
 
+.gallery-single-text iframe {
+	margin-bottom: 25px;
+}
+
 /* ----------------
   Blog page
 ---------------------*/
 
 .blog-page {
 	background: #f7f9fb;
+	/*
 	padding-top: 90px;
 	padding-left: 86px;
 	padding-right: 77px;
 	height: auto;
+	*/
 }
 
 .blog-warp {

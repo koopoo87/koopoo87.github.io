@@ -49,7 +49,7 @@
 				<div class="ns-bar"></div>
 			</div>
 		</div>
-	</div>
+	</div> 
 	<div class="main-warp">
 		<!-- header section -->
 		<header class="header-section">
@@ -82,22 +82,17 @@
 
 
 		<!-- Page section -->
-			<div class="page-section blog-page">
-			<div class="blog-warp">
-				<div class="blog-track">
-					<div class="blog-post">
-						<div class="blog-thumb set-bg" data-setbg="./img/brain_top.jpg">
-							<div class="post-date">
-								<h3>10</h3>
-								<span>June, ‘19</span>
-							</div>
-						</div>
-						<h2 class="post-title">Work in Progress of Brain Composer</h2>
-						<div class="post-metas">
-							<div class="post-meta">By Minjoo Cho</div>|
-							<div class="post-meta">AI Installation</div>
-						</div>
-
+			<div class="page-section gallery-single-page">
+			<div class="gallery-single-warp">
+				<div class="col">
+					<div class="gallery-single-text">
+						<a><img src="./img/brain_top.jpg"></a></p>
+						<span>Creative Projects</span>
+						<h2>>Work in Progress of Brain Composer</h2>
+						<ul>
+							<li>June, 2019</li>
+						</ul>
+						
 						
 						<p>This post describes the detailed development procedure of <a href="../portfolio/gallery-brain.html">Brain Composer project</a>.</br>
 
@@ -128,7 +123,7 @@
 						<h2>Brain Interface (Connected to Client)</h2>
 						<p>Environment : Web (Javascipt : P5.js) </br>
 						I was very much inspired by this video clip of two guys playing <a href="https://store.neurosky.com/">Nerosky's Mindflex</a>. As the meditiation level rises, the levitated ball drifts more towards the another person's side :)</p>
-						<iframe width="853" height="480" src="https://www.youtube.com/embed/YWV-XZGgARc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="100%" height="480" src="https://www.youtube.com/embed/YWV-XZGgARc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 						<p>There was an easy <a href="https://www.instructables.com/id/How-to-hack-EEG-toys-with-arduino/">H/W hack tutorial</a> to connect this device to ardino with serial port, and I used this H/W circuit for the installation and redesigned the whole shape. The brain reading part was also included in the libray but was written in Processing. I later translated this into P5.js code (most of the codes are compatible to each other and was easy to implement in the web environment). 
 						
@@ -136,7 +131,7 @@
 						<a><img src="img/HW_map.jpg" height="600"></a></p>
 						<p> This was the most challenging part of the whole development process. The initial machine was inspired from <a href="https://www.jshel.co/things/music-box-hole-punching-machine">Music Box Hole Punching Machine by Josh Sheldon</a>. However, we had to redesign the machine completely so as to decrease the punching time dramatically for the whole user experience. (We aimed to make the whole experience of the installation taking below 2 minutes in total.) <p>
 
-						<iframe width="853" height="480" src="https://www.youtube.com/embed/W41uh2bS2Yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="100%" height="480" src="https://www.youtube.com/embed/W41uh2bS2Yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 						<p>We used 30 servos that are connected with thin steel rod that open/closes the hole according to the result from the state machine. The 30 holes (As we used music box for 30 notes). The 30 holes are aligned into 3 rows (single rows are punched together) to speed up the punching speed. </br></br>
 
@@ -144,13 +139,13 @@
 
 						This is the video clip that I'm testing PCA9685 controlling 30 servos at the same time (The max curren draw was around 5A peak.</br></br>
 
-						<iframe height="480" src="video/punching.mp4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></br>
+						<iframe width="100%" height="480" src="video/punching.mp4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></br>
 
 						The punching module is driven with Brushless DC motor (7.6V / peak-current 10A )- later, we put later ESC driver for the safely reason.</p>
 
 						<h2>Punching Machine - Speaker / Cranker </h2>
 						<p>The bottom part of the machine includes the speaker that magnifiy the sound coming out from the automatic cranker attached to the backside of the wooden speaker. (Will be updated very soon)</p>
-						<iframe width="853" height="480" src="video/cranker.mp4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></br>
+						<iframe width="100%" height="480" src="video/cranker.mp4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></br>
 
 					</div>
 				</div>
